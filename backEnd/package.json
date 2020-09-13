@@ -1,0 +1,24 @@
+{
+  "name": "notesappbackend",
+  "version": "1.0.0",
+  "description": "notes app made using MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "yarn install --prefix frontEnd",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "yarn start --prefix ../frontend"
+  },
+  "author": "Sagun Jaiswal",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
